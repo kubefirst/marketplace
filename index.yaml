@@ -5,5 +5,17 @@ apps:
   - DD_APP_KEY
   imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Datadog_logo.svg/1200px-Datadog_logo.svg.png"
   description: "Installs the default datadog agent with secrets bindings to Vault for api and app keys"
-  category:
+  categories:
   - Monitoring
+  - Observability
+- name: testkube
+  imageUrl: "https://assets.website-files.com/61e00b3936e571a4ea7a5a4c/623b2bb9387ad04955b1f82c_testkube.svg"
+  description: "Testkube natively integrates test orchestration and execution into Kubernetes and your CI/CD/GitOps pipeline"
+  categories:
+  - Testing
+- name: tracetest
+  imageUrl: "https://assets.website-files.com/625f135a8e554e44ad158913/625f1d8ab2348b3c4e3fa870_logo.svg"
+  description: "Develop and test your distributed system with OpenTelemetry"
+  categories:
+  - Testing
+  - Observability
