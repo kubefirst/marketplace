@@ -1,0 +1,9 @@
+apps: 
+- name: datadog-agent
+  secretKeys:
+  - DD_API_KEY
+  - DD_APP_KEY
+  imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Datadog_logo.svg/1200px-Datadog_logo.svg.png"
+  description: "Installs the default datadog agent with secrets bindings to Vault for api and app keys"
+  category:
+  - Monitoring
