@@ -1,19 +1,24 @@
 apps: 
 - name: datadog-agent
+  displayName: Datadog 
   secretKeys:
-  - DD_API_KEY
-  - DD_APP_KEY
+    - name: DD_API_KEY
+      label: Datadog API key
+    - name: DD_APP_KEY
+      label: Datadog application key
   imageUrl: "https://imgix.datadoghq.com/img/dd_logo_n_70x75.png"
   description: "Datadog’s SaaS-based infrastructure monitoring provides metrics, visualizations, and alerting to ensure your engineering teams can maintain and optimize your cloud or hybrid environments."
   categories:
   - Monitoring
   - Observability
 - name: testkube
+  displayName: Testkube 
   imageUrl: "https://assets.website-files.com/61e00b3936e571a4ea7a5a4c/63eba7324e90b73e382e9443_testkube-small-logo.svg"
   description: "Testkube is a Kubernetes-native testing framework that allows you to automate the executions of your existing testing tools inside your Kubernetes cluster."
   categories:
   - Testing
 - name: tracetest
+  displayName: Tracetest
   imageUrl: "https://assets.website-files.com/625f135a8e554e44ad158913/63f4ff012c966601d2dc37dc_tracetest-small-logo.svg"
   description: "Tracetest uses your existing OpenTelemetry traces to power trace-based testing with assertions against your trace data at every point of the request transaction."
   categories:
