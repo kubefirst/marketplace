@@ -23,6 +23,18 @@ apps:
   categories:
   - Monitoring
   - Observability
+- name: kratix
+  displayName: Kratix
+  imageUrl: "https://assets.website-files.com/6194c620b350c4056027fac7/62c6d513f52586d698eb1c43_kratix-logo.png"
+  description: "Kratix is a framework used by platform teams to build the custom platforms tailored to their organisation."
+  categories:
+  - Application Management
+- name: kubernetes-dashboard
+  displayName: Kubernetes Dashboard
+  imageUrl: "https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg"
+  description: "Kubernetes Dashboard is a general purpose, web-based UI for Kubernetes clusters. It allows users to manage applications running in the cluster and troubleshoot them, as well as manage the cluster itself."
+  categories:
+  - Observability
 - name: kyverno
   displayName: Kyverno 
   imageUrl: "https://repository-images.githubusercontent.com/169108858/35923880-823a-11e9-9089-0c9c102f9e6f"
@@ -41,10 +53,4 @@ apps:
   description: "Tracetest uses your existing OpenTelemetry traces to power trace-based testing with assertions against your trace data at every point of the request transaction."
   categories:
   - Testing
-  - Observability
-- name: kubernetes-dashboard
-  displayName: Kubernetes Dashboard
-  imageUrl: "https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg"
-  description: "Kubernetes Dashboard is a general purpose, web-based UI for Kubernetes clusters. It allows users to manage applications running in the cluster and troubleshoot them, as well as manage the cluster itself."
-  categories:
   - Observability
