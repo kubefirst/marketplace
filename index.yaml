@@ -1,4 +1,10 @@
 apps: 
+- name: argo-rollouts
+  displayName: Argo Rollouts 
+  imageUrl: "https://argoproj.github.io/static/3748e3a7881fe3b037f2401b65943dc0/93d75/rollouts.png"
+  description: "Argo Rollouts is a Kubernetes controller and set of CRDs which provide advanced deployment capabilities such as blue-green, canary, canary analysis, experimentation, and progressive delivery features to Kubernetes."
+  categories:
+  - Continuous Delivery
 - name: datadog-agent
   displayName: Datadog 
   secretKeys:
@@ -14,13 +20,7 @@ apps:
 - name: kyverno
   displayName: Kyverno 
   imageUrl: "https://repository-images.githubusercontent.com/169108858/35923880-823a-11e9-9089-0c9c102f9e6f"
-  description: "Kyverno is a policy engine designed for Kubernetes."
-  categories:
-  - Security
-- name: kyverno-policies
-  displayName: Kyverno Policies
-  imageUrl: "https://repository-images.githubusercontent.com/169108858/35923880-823a-11e9-9089-0c9c102f9e6f"
-  description: "Kyverno Policies are managed as Kubernetes resources and no new language is required to write policies."
+  description: "Kyverno is a policy engine designed for Kubernetes. Kyverno Policies are managed as Kubernetes resources and no new language is required to write policies."
   categories:
   - Security
 - name: testkube
