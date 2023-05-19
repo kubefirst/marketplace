@@ -47,6 +47,7 @@ apps:
   description: "Testkube is a Kubernetes-native testing framework that allows you to automate the executions of your existing testing tools inside your Kubernetes cluster."
   categories:
   - Testing
+  - Kubeshop
 - name: tracetest
   displayName: Tracetest
   imageUrl: "https://assets.website-files.com/625f135a8e554e44ad158913/63f4ff012c966601d2dc37dc_tracetest-small-logo.svg"
@@ -54,3 +55,4 @@ apps:
   categories:
   - Testing
   - Observability
+  - Kubeshop
