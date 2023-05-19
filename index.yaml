@@ -11,6 +11,18 @@ apps:
   categories:
   - Monitoring
   - Observability
+- name: kyverno
+  displayName: Kyverno 
+  imageUrl: "https://repository-images.githubusercontent.com/169108858/35923880-823a-11e9-9089-0c9c102f9e6f"
+  description: "Kyverno is a policy engine designed for Kubernetes."
+  categories:
+  - Security
+- name: kyverno-policies
+  displayName: Kyverno Policies
+  imageUrl: "https://repository-images.githubusercontent.com/169108858/35923880-823a-11e9-9089-0c9c102f9e6f"
+  description: "Kyverno Policies are managed as Kubernetes resources and no new language is required to write policies."
+  categories:
+  - Security
 - name: testkube
   displayName: Testkube 
   imageUrl: "https://assets.website-files.com/61e00b3936e571a4ea7a5a4c/63eba7324e90b73e382e9443_testkube-small-logo.svg"
