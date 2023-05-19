@@ -24,3 +24,9 @@ apps:
   categories:
   - Testing
   - Observability
+- name: kubernetes-dashboard
+  displayName: Kubernetes Dashboard
+  imageUrl: "https://github.com/kubernetes/kubernetes/blob/master/logo/logo.svg"
+  description: "Kubernetes Dashboard is a general purpose, web-based UI for Kubernetes clusters. It allows users to manage applications running in the cluster and troubleshoot them, as well as manage the cluster itself."
+  categories:
+  - Observability
