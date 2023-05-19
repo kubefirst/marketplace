@@ -23,6 +23,12 @@ apps:
   categories:
   - Monitoring
   - Observability
+- name: goldilocks
+  displayName: Goldilocks 
+  imageUrl: "https://raw.githubusercontent.com/FairwindsOps/goldilocks/4ce63764d40d8215b2d517c7cb34c557cc81e533/img/goldilocks.svg"
+  description: "Goldilocks is a utility that can help you identify a starting point for resource requests and limits."
+  categories:
+  - Monitoring
 - name: kratix
   displayName: Kratix
   imageUrl: "https://assets.website-files.com/6194c620b350c4056027fac7/62c6d513f52586d698eb1c43_kratix-logo.png"
@@ -39,6 +45,12 @@ apps:
   displayName: Kyverno 
   imageUrl: "https://repository-images.githubusercontent.com/169108858/35923880-823a-11e9-9089-0c9c102f9e6f"
   description: "Kyverno is a policy engine designed for Kubernetes. Kyverno Policies are managed as Kubernetes resources and no new language is required to write policies."
+  categories:
+  - Security
+- name: polaris
+  displayName: Polaris
+  imageUrl: "https://camo.githubusercontent.com/21017bcdf60b658e5719e8d4b8ebf4ba4c1115ea907f2d8190427a82f8979eaf/68747470733a2f2f706f6c617269732e646f63732e6661697277696e64732e636f6d2f696d672f706f6c617269732d6c6f676f2e706e67"
+  description: "Polaris is an open source policy engine for Kubernetes."
   categories:
   - Security
 - name: testkube
