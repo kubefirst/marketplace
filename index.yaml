@@ -1,4 +1,10 @@
 apps: 
+- name: argo-rollouts
+  displayName: Argo Rollouts 
+  imageUrl: "https://argoproj.github.io/static/3748e3a7881fe3b037f2401b65943dc0/93d75/rollouts.png"
+  description: "Argo Rollouts is a Kubernetes controller and set of CRDs which provide advanced deployment capabilities such as blue-green, canary, canary analysis, experimentation, and progressive delivery features to Kubernetes."
+  categories:
+  - Continuous Delivery
 - name: datadog-agent
   displayName: Datadog 
   secretKeys:
