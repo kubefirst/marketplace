@@ -8,9 +8,31 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/syntasso/kratix'
-    path: distribution/single-cluster
+    repoURL: 'https://github.com/syntasso/kratix.git'
+    path: charts/kratix
     targetRevision: HEAD
+    helm:
+      values: |
+        # Example cluster using the default BucketStateStore
+        # clusters:
+        # - name: worker-cluster-1
+        #   namespace: default
+        #   labels:
+        #     env: dev
+        #   path: "dev"
+        #   stateStoreRef:
+        #      name: default
+        #      kind: BucketStateStore
+        stateStores:
+        # Default statestore is the MinIO provided by KubeFirst
+        - kind: BucketStateStore
+          name: default
+          namespace: default
+          secretRef:
+            name: bss-default-default
+          endpoint: minio.minio.svc.cluster.local:9000
+          insecure: true
+          bucket: kratix
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: kratix
